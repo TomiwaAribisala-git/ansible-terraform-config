@@ -73,7 +73,7 @@
   tasks: 
     - name: copy docker compose from local machine
       copy:
-        src: /mnt/c/Users/Tomiwa/Documents/cloud_engineering_roadmap/developing-with-docker/docker-compose.yaml
+        src: []
         dest: /home/ec2-user/docker-compose.yml
     - name: docker login
       docker_login:
